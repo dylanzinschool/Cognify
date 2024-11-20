@@ -80,27 +80,6 @@ h1 {
   background-color: white; /* colour of the box to be white */
 }
 
-#goalForm {
-  margin-bottom: 20px;
-}
-
-#goalInput {
-  padding: 10px;
-  width: 80%;
-  margin-right: 10px;
-  border-radius: 5px;
-  border: 1px solid #ccc;
-}
-
-button {
-  padding: 10px 20px;
-  background-color: #5c6bc0;
-  color: white;
-  border: none;
-  border-radius: 5px;
-  cursor: pointer;
-}
-
 .about {
   display: flex;
   flex-direction:column;
