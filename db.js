@@ -1,8 +1,7 @@
 db.collection('tasks').onSnapshot((snapshot) => {
     console.log(snapshot.docChanges());
 })
-
-/*     snapshot.docChanges().forEach(change => {
+snapshot.docChanges().forEach(change => {
         if(change.type === 'added'){
             
         }
@@ -11,4 +10,4 @@ db.collection('tasks').onSnapshot((snapshot) => {
             
         }
     });
-}) */
+})
