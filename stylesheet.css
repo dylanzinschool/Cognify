@@ -80,29 +80,25 @@ h1 {
   background-color: white; /* colour of the box to be white */
 }
 
-.tablegoal {
-  width: 100%; /* ensures the table stretches across the screen */
-  margin-top: 3rem; /* moves page down */
+#goalForm {
+  margin-bottom: 20px;
 }
 
-.tablegoal table {
-  width: 90%; /* table takes up 90% of the available width */
-  margin: 0 auto; /* centers the table within its container */
-  border-collapse: collapse; /* ensures single borders - had to look up */
+#goalInput {
+  padding: 10px;
+  width: 80%;
+  margin-right: 10px;
+  border-radius: 5px;
+  border: 1px solid #ccc;
 }
 
-.tablegoal th, .tablegoal td {
-  border: 1px solid black; /* black borders for rows and columns */
-  text-align: left; /* aligns text to the left */
-  padding: 8px; /* adds spacing inside cells */
-}
-
-.tablegoal th {
-  font-weight: bold; /* makes the header bold */
-  font-size: 1.7rem;
-  text-align: center;
-  background-color: orange; /* background color to orange */
-  color: white; /* font color to white */
+button {
+  padding: 10px 20px;
+  background-color: #5c6bc0;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
 }
 
 .about {
