@@ -4,14 +4,11 @@ const CACHE_NAME = `cognify-v1`;
 self.addEventListener('install', event => {
   event.waitUntil((async () => {
     const cache = await caches.open(CACHE_NAME);
-    try {
-      // Attempt to add all resources to the cache
-      await cache.addAll([
-        '/',
-        '/Cognify/converter.js',
-        '/Cognify/stylesheet.css'
-      ]);
-    } 
+    cache.addAll([
+      '/',
+      '/Cognify/converter.js',
+      '/Cognify/stylesheet.css'
+    ]);
   })());
 });
 
