@@ -11,10 +11,7 @@ self.addEventListener('install', event => {
         '/Cognify/converter.js',
         '/Cognify/stylesheet.css'
       ]);
-    } catch (error) {
-      // Log the error if any resource fails to cache
-      console.error('Failed to cache resources:', error);
-    }
+    } 
   })());
 });
 
