@@ -6,8 +6,8 @@ self.addEventListener('install', event => {
     const cache = await caches.open(CACHE_NAME);
     cache.addAll([
       '/',
-      '/converter.js',
-      '/stylesheet.css'
+      '/Cognify/converter.js',
+      '/Cognify/stylesheet.css'
     ]);
   })());
 });
@@ -35,5 +35,4 @@ self.addEventListener('fetch', event => {
    }
  })());
 }
-});
 });
