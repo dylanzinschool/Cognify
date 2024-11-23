@@ -10,7 +10,7 @@
     "display": "standalone",
     "icons": [
         {
-            "src": "/Cognify/CognifyLogo.png",
+            "src": "/CognifyLogo.png",
             "sizes": "192x192"
         }
     ]
