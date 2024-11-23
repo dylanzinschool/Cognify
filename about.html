@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en-US" dir="ltr">
+ 
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width,initial-scale=1" />
+    <link rel="stylesheet" href="stylesheet.css">
+    <link rel="shortcut icon" href="https://c.s-microsoft.com/favicon.ico?v2" />
+    <link rel="manifest" href="/manifest.json">
+    <title>Cognify</title>
+</head>
+ 
+  <body>
+    <div class="sidebar">
+      <div class="title">
+        <h1>C<img src="CognifyLogo.png" alt="Cognify Logo" width=48px height=48px;>gnify</h1>
+      </div>
+      <div class="top">
+        <a href="index.html">Dashboard</a>
+      </div>
+      <div class="bottom">
+        <a href="about.html">About</a>
+        <a href="help.html">Help?</a>
+      </div>
+    </div>
+
+    <div class="dashboardcontent">
+      <h1>ABOUT</h1>
+      <h2>Our Mission</h2>
+      <p>
+        Welcome to Cognify, your personal study goal tracker. Designed for students and professionals, Cognify <br> combines sleek design with powerful features. Manage your academic and personal goals effortlessly. </p>
+      <h2>Features</h2>
+        <ul class="featureslist">
+            <li>Track and manage your study goals in real-time.</li>
+            <li>Seamlessly add, update, and delete tasks as needed.</li>
+            <li>Gain insights into your progress to stay motivated.</li>
+        </ul>
+
+        <h2>Why Choose Cognify?</h2>
+        <p>
+            Cognify is built with simplicity in mind, offering a distraction-free environment for managing your academic <br> workload. Whether you're preparing for exams or juggling multiple projects, Cognify adapts to your needs.
+        </p>
+        <p class="intro">
+           Contact Us: <a href="mailto:support@cognifyapp.com">support@cognifyapp.com</a> | (02)-123-321
+        </p>
+    </div>
+  
+  <script>
+    if('serviceWorker' in navigator) {
+      navigator.serviceWorker.register('/sw.js', { scope: '/' });
+    }
+    </script>
+</html>
